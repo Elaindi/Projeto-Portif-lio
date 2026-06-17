@@ -1,0 +1,22 @@
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: center;
+
+}
+
+.header .photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.header .totle {
+    font-family: 'neuemachina', sans-serif;
+    text-align: center;
+
+}

@@ -16,10 +16,12 @@
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="acordeon.css">
     <link rel="stylesheet" href="/languages.css">
+    <link rel="stylesheet" href="/portifolio.css">
+    <link rel="stylesheet" href="/profissional.css">
 </head>
 <body>
 
-    <div class="main">
+    <main class="main">
 
         <header class="header">
             <img
@@ -34,13 +36,17 @@
             <div class="information">
                 <p class="icone">Junior Developer</p>
                 <p class="mapas">São Paulo, Brasil</p>
-                <p class="whatsapp">(11) 9 9999-9999</p>
-                <p class="e-mail">elaindi@gmail.com</p>
+                <p class="whatsapp">
+                    <a href="tel:(11) 9 9999-9999">(11) 9 9999-9999</a>
+                </p>
+                <a class="e-mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=elaindi@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Enviar email para Elaine Santana">
+                    elaindi@gmail.com
+                </a>
             </div>
 
         </header>
 
-        <section class="acordeon open">
+        <section class="acordeon ">
             <button class="trigger" type="button">
                 <span class="title">Idiomas</span>
             </button>
@@ -61,8 +67,65 @@
                
             </div>
         </section>
+            <section class="acordeon ">
+            <button class="trigger" type="button">
+                <span class="title">portifolio</span>
+            </button>
+            
+            
+            <div>
 
-    </div>
+                <div class="content">
+                <ul class="portifolio">
+                    <li>
+                       <span class="title github">Criando cards de pokemon</span> 
+                       <a href="https://github.com/Elaindi/card-pokemon.git" target="_blank">https://github.com/Elaindi/card-pokemon.git</a>
+                    </li>
+
+                     <li>
+                       <span class="title github">Criando um site da Dio</span> 
+                       <a href="https://github.com/Elaindi/site-css-dio.git" target="_blank">https://github.com/Elaindi/site-css-dio.git</a>
+                    </li>
+
+                     <li>
+                       <span class="title github">Criando um site de clinica da mulher</span> 
+                       <a href="https://github.com/Elaindi/site-clinica-da-mulher.git" target="_blank">https://github.com/Elaindi/site-clinica-da-mulher.git</a>
+                    </li>
+                </ul>
+
+        </section>
+
+           <section class="acordeon open ">
+            <button class="trigger" type="button">
+                <span class="title">Experiência profiisional</span>
+            </button>
+            
+            
+            <div>
+
+                <div class="content" >
+                <ul class="profissional">
+                    <li>
+                       <span class="title">Front-end Developer </span> 
+                       <span class="periodo">jan 2020 - current</span>
+                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum omnis obcaecati quia, consequatur sequi rerum suscipit voluptas fugiat sed ratione! Optio soluta porro consequuntur nam ratione inventore tempora minima expedita.</p>
+                       
+                    </li>
+
+                    <li>
+                       <span class="title">Front-end Developer </span> 
+                       <span class="periodo">jan 2020 - current</span>
+                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum omnis obcaecati quia, consequatur sequi rerum suscipit voluptas fugiat sed ratione! Optio soluta porro consequuntur nam ratione inventore tempora minima expedita.</p>
+                       
+                    </li>
+
+                     
+                </ul>
+
+        </section>
+
+
+    </main>
 
 
     <script src="acordeon.js"></script>
